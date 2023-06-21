@@ -68,3 +68,30 @@ class realme extends hp
 //Kelas baru dari kelas realme (instansiasi)
 $hp_saya = new realme();
 echo "<br>" . $hp_saya->tampilkan_chipset();
+
+
+// METODE PRIVATE = Hanya kelas yang memiliki property itu sendir yang bisa mengakses kelas itu
+class negara
+{
+    private $asia = "Indonesia";
+
+    public function nama_negara()
+    {
+        return $this->asia;
+    }
+}
+
+echo "<br>";
+
+$negara_asia =  new negara();
+echo $negara_asia->nama_negara();
+
+//  !!!!! ERROR jika di akses menggunakann pewarisan kelas atau penurusan kelas
+
+class country extends negara
+{
+    public function nama_negara()
+    {
+        // return $this->nama_negara; ERROR, Variable tidak dikenali
+    }
+}
