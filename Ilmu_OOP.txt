@@ -1,0 +1,14 @@
+1. Jangan lagi mennggunakan var di dalam property oop dalam kelas
+    tetapi gunakan saja public, karena var juga default dari public
+
+2. Dalam ENKAPSULASI adalah 3 model jenis hal untuk men-set property (variables)
+    didalam kelas antara lain:
+
+    a. public = membuat property kelas menjadi public, default untuk semua variable jika tidak didefinisikan
+
+    b. proteted = hanya kelas itu sendiri dan turunan kelas (pewarisan) yang dapat menggunakan property 
+                  tersebut
+
+    c. private = hanya kelas yang memiliki property itu sendiri yang bisa mengakses metode
+                dalam property itu, dan sering digunakan untuk menyembunyikannya agar tidak bisa diakses
+                oleh kelas dari luar.
