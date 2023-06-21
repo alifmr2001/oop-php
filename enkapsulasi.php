@@ -46,3 +46,25 @@ $mobil_bella = new mobil();
 echo $mobil_bella->pemilik_mobil();
 
 echo "<br>" . $mobil_bella->paksa_hidup();
+
+
+//akses menggunakan pewarisan
+
+//Buat sebuah kelas hp
+class hp
+{
+    protected $chipset = "chipset yang digunakan bionic 3.1 Hz";
+}
+
+//Turunan dari kelas hp
+class realme extends hp
+{
+    public function tampilkan_chipset()
+    {
+        return $this->chipset;
+    }
+}
+
+//Kelas baru dari kelas realme (instansiasi)
+$hp_saya = new realme();
+echo "<br>" . $hp_saya->tampilkan_chipset();
