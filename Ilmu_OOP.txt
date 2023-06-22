@@ -1,3 +1,6 @@
+class hanyalah sebuah “blue print” atau kerangka. Seluruh property dan method nantinya akan diakses dari dalam objek, bukan dari dalam class. Pada saat proses instansiasi class, seluruh property dan method akan “dicopy” ke dalam objek.s
+
+
 1. Jangan lagi mennggunakan var di dalam property oop dalam kelas
     tetapi gunakan saja public, karena var juga default dari public
 
@@ -12,3 +15,4 @@
     c. private = hanya kelas yang memiliki property itu sendiri yang bisa mengakses metode
                 dalam property itu, dan sering digunakan untuk menyembunyikannya agar tidak bisa diakses
                 oleh kelas dari luar.
+                
