@@ -6,7 +6,7 @@ class laptop
 
     public function beli_laptop()
     {
-        return "beli laptop";
+        return "beli laptop baru aja ya biar lebih bagus";
     }
 }
 
