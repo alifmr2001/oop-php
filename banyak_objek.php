@@ -11,7 +11,6 @@ class hewan
         return " adalah makhluk hidup yang bisa bergerak";
     }
 }
-
 // buat objek baru =
 $hewan_darat = new hewan();
 $hewan_air = new hewan();
@@ -33,3 +32,5 @@ echo "#. " . $hewan_darat->nama_hewan . $hewan_darat->gerakan_hewan();
 echo "<br>";
 echo "ini adalah contoh objek lain yaitu :";
 echo $hewan_air->nama_hewan = "ikan";
+
+echo "ikan";
